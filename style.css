@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+*{
+    background-color: #E8E8E8;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    line-height:150%;
+}
+
+.logo__alura{
+    margin: 12px;
+    padding-top: 10px;
+    width: 5% ;
+}
+
+main{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.text__area{
+    font-size:32px;
+    border: none;
+    color: #0A3871;
+    margin-top: 68px;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.text__area:focus{
+    outline: none;
+}
+
+.mensagem{
+    font-size:32px;
+    background-color: white;
+    background-image: url(/assets/High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 32px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 0;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    font-size:32px;
+}
+
+.botao__criptografar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botao__descriptografar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30PX;
+    width: 328px;
+}
+
+.botao__copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao{
+    color: #495057;
+    font: size 18px;
+}
+
